@@ -96,6 +96,13 @@ h2,h3 {
     color: #00a2c6;
 }
 
+th {
+    text-align: left;
+}
+
+td {
+    text-indent: 40px
+}
 
 footer {
     padding: 20px;
