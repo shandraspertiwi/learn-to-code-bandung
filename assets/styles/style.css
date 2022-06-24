@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
 
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 50%;
+      padding: 0;
+    }
+  }
+ 
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    overflow: auto;
+}
+
+
 .jumbotron {
     padding: 60px;
     background-color: #27d7ff;
@@ -31,15 +52,13 @@
     width: 250px;
 }
 
-#content {
-    float: left;
-    width: 75%;
-}
-
 * {
     box-sizing: border-box;
 }
 
+header {
+    display: inline;
+}
 body {
     font-family:'Quicksand', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -54,6 +73,8 @@ main    {
 nav {
     background-color: #00a2c6;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -77,11 +98,6 @@ h2,h3 {
     color: #00a2c6;
 }
 
-aside {
-    float: right;
-    width: 25%;
-    padding-left: 20px;
-}
 
 footer {
     padding: 20px;
