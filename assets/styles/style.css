@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
 
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
 body {
     font-family:'Quicksand', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -21,6 +28,9 @@ h2,h3 {
 
 .profile header {
     text-align: center;
+}
+.profile img {
+    width: 250px;
 }
 
 footer {
